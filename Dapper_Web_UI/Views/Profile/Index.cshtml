@@ -1,8 +1,28 @@
-﻿
+﻿<!--
+
+ViewData bir ViewDataDictionary nesnesidir ve Controller'dan View'e veri taşımak için kullanılır.
+
+    ViewData içinde key-value (anahtar-değer) çiftleri bulunur. ViewData["Title"] = "Index"; ifadesi, "Title" adında bir anahtarla ViewData'ya "Index" değerini atar.
+
+    Bu özellik genellikle sayfa başlığını belirlemek için kullanılır.
+
+Layout özelliği de sayfanın hangi layout'u kullanacağını belirler.
+
+        Bu durumda, "~/Views/Shared/_MemberLayout.cshtml" layout dosyasını kullanacağını belirtiyor.
+
+Yani, sayfa başlığı "Index" olarak ayarlanmış ve sayfa düzeni (layout) olarak "_MemberLayout.cshtml" kullanılacaktır.
+Bu bilgiler daha sonra sayfanın HTML başlığına (<title>) ve düzen dosyasına entegre edilecektir.
+
+ -->
+
+
+
+
 @{
-    ViewData["Title"] = "Index";
-    Layout = "~/Views/Shared/_MemberLayout.cshtml";
+    ViewData["Title"] = "Index";    //sayfa başlığını belirlemek için kullanılır.
+    Layout = "~/Views/Shared/_MemberLayout.cshtml"; //Hangi Layouth kullanacak onu ayarlıyoruz.
 }
 
-<h1>Index</h1>
+<h1>Profile İndex Sayfası</h1>
+<h2>@ViewData["Title"]</h2>
 

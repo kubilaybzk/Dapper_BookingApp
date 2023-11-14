@@ -8,4 +8,18 @@
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <ProjectReference Include="..\Dapper_Web_Api\Dapper_Web_Api.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Views\_ViewStart.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Views\Shared\Partials\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Shared\Partials\" />
+  </ItemGroup>
 </Project>
