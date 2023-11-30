@@ -36,7 +36,7 @@ namespace Dapper_Web_Api.Concrete
 
         public async Task<List<ResultProductWithCategoryDTO>> GetAllProductWithCategoryAsync()
         {
-            string query = "select  ProductID,Title ,Price,CoverImage,City,Disctrict,Address,Description,CategoryName from Product inner join Category  on Product.ProductCategory = Category.CategoryID  ";
+            string query = "select top 6 ProductID,Title ,Price,CoverImage,City,Disctrict,Address,Description,CategoryName from Product inner join Category  on Product.ProductCategory = Category.CategoryID  ";
 
             using (var connection = _context.CreateConnection())
             {

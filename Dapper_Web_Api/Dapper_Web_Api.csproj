@@ -18,9 +18,35 @@
   <ItemGroup>
     <None Remove="DTOs\Category\" />
     <None Remove="DTOs\Product\" />
+    <None Remove="DTOs\WhoWeAre\" />
+    <None Remove="Concrete\WhoWeAre\" />
+    <None Remove="Repositorys\WhoWeAre\" />
+    <None Remove="DTOs\WhoWeAreServices\" />
+    <None Remove="Repositorys\BottomGrid\" />
+    <None Remove="Concrete\BottomGrid\" />
+    <None Remove="DTOs\BottomGrid\" />
+    <None Remove="DTOs\PopularLocation\" />
+    <None Remove="Repositorys\PopularLocation\" />
+    <None Remove="Concrete\PopularLocation\" />
+    <None Remove="DTOs\Testimonial\" />
+    <None Remove="Repositorys\Testimonial\" />
+    <None Remove="Concrete\Testimonial\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DTOs\Category\" />
     <Folder Include="DTOs\Product\" />
+    <Folder Include="DTOs\WhoWeAre\" />
+    <Folder Include="Concrete\WhoWeAre\" />
+    <Folder Include="Repositorys\WhoWeAre\" />
+    <Folder Include="DTOs\WhoWeAreServices\" />
+    <Folder Include="Repositorys\BottomGrid\" />
+    <Folder Include="Concrete\BottomGrid\" />
+    <Folder Include="DTOs\BottomGrid\" />
+    <Folder Include="DTOs\PopularLocation\" />
+    <Folder Include="Repositorys\PopularLocation\" />
+    <Folder Include="Concrete\PopularLocation\" />
+    <Folder Include="DTOs\Testimonial\" />
+    <Folder Include="Repositorys\Testimonial\" />
+    <Folder Include="Concrete\Testimonial\" />
   </ItemGroup>
 </Project>

@@ -24,6 +24,20 @@
     <None Remove="Views\Shared\Components\_HeaderViewComponentPartial\" />
     <None Remove="Views\Shared\Components\_NavbarViewComponentPartial\" />
     <None Remove="Views\Shared\Components\_FooterViewComponentPartial\" />
+    <None Remove="ViewComponents\HomePage\" />
+    <None Remove="Views\Shared\Components\_HeroViewComponentPartial\" />
+    <None Remove="Views\Shared\Components\_DefaultHomePageProductList\" />
+    <None Remove="Views\Shared\Components\_DefaultWhoWeAreComponentPartial\" />
+    <None Remove="Views\Shared\Components\_DefaultProductListExploreCitiesComponentPartial\" />
+    <None Remove="Views\Shared\Components\_DefaultOurClientsComponentPartial\" />
+    <None Remove="Views\Shared\Components\_DefaultSubFeatureComponentPartial\" />
+    <None Remove="Views\Shared\Components\_DefaultDiscountOfDayComponentPartial\" />
+    <None Remove="Views\Shared\Components\_DefaultBrandComponentPartial\" />
+    <None Remove="Views\Shared\Components\_DefaultScriptComponentPartial\" />
+    <None Remove="Dtos\" />
+    <None Remove="Dtos\ProductDtos\" />
+    <None Remove="Dtos\WhoWeAreDtos\" />
+    <None Remove="Views\Shared\Components\_DefaultBottomGridComponentPartial\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ViewComponents\" />
@@ -32,8 +46,23 @@
     <Folder Include="Views\Shared\Components\_HeaderViewComponentPartial\" />
     <Folder Include="Views\Shared\Components\_NavbarViewComponentPartial\" />
     <Folder Include="Views\Shared\Components\_FooterViewComponentPartial\" />
+    <Folder Include="ViewComponents\HomePage\" />
+    <Folder Include="Views\Shared\Components\_HeroViewComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_DefaultHomePageProductList\" />
+    <Folder Include="Views\Shared\Components\_DefaultWhoWeAreComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_DefaultProductListExploreCitiesComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_DefaultOurClientsComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_DefaultSubFeatureComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_DefaultDiscountOfDayComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_DefaultBrandComponentPartial\" />
+    <Folder Include="Views\Shared\Components\_DefaultScriptComponentPartial\" />
+    <Folder Include="Dtos\" />
+    <Folder Include="Dtos\ProductDtos\" />
+    <Folder Include="Dtos\WhoWeAreDtos\" />
+    <Folder Include="Views\Shared\Components\_DefaultBottomGridComponentPartial\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="7.0.14" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 </Project>
